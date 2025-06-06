@@ -1,0 +1,14 @@
+title: Jamie’s Hack Shack
+email: contact@hackshack.us
+description: >-
+  Tinkering, hacking, retro computing, and making things work (or explode).
+baseurl: ""
+url: "https://hackshack.us"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+collections:
+  projects:
+    output: true
