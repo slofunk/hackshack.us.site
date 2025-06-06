@@ -1,0 +1,59 @@
+---
+---
+
+body {
+  font-family: monospace;
+  background-color: #0c0c0c;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00ffaa;
+}
+
+header {
+  text-align: center;
+  padding: 1.5em 1em;
+  border-bottom: 2px solid #00ffaa;
+}
+
+.logo {
+  max-height: 100px;
+  margin-bottom: 1em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5em;
+  padding: 1em 0;
+}
+
+.project-tile {
+  background-color: #1a1a1a;
+  padding: 1em;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.project-tile img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5em;
+}
